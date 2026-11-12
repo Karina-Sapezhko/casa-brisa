@@ -1,0 +1,15 @@
+.DS_Store
+._*
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+.vscode/
+backups/
+qa/
+.openai/
+.sites-runtime/
+*.tar.gz
+*.zip
