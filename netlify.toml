@@ -1,0 +1,8 @@
+"$schema" = "https://open-api.netlify.com/netlify.schema.json"
+
+[build]
+  publish = "dist"
+  command = "npm run check"
+
+[build.environment]
+  NODE_VERSION = "22"

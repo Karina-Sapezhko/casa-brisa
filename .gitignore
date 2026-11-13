@@ -13,3 +13,4 @@ qa/
 .sites-runtime/
 *.tar.gz
 *.zip
+.netlify/

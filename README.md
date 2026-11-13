@@ -56,7 +56,7 @@ licenses/           Typeface licence and media credits
 
 ## Before deployment
 
-Publish the contents of `dist` to a static host. The hotel identity, contact details and illustrated location are fictional. See [asset credits](licenses/ASSETS.md) for photography and typeface provenance; media is not covered by a software licence for the repository.
+Publish the contents of `dist` to a static host. Netlify uses `netlify.toml` to run the integrity checks with Node.js 22, then publishes `dist`. The connected `main` branch deploys automatically after each push. The hotel identity, contact details and illustrated location are fictional. See [asset credits](licenses/ASSETS.md) for photography and typeface provenance; media is not covered by a software licence for the repository.
 
 For a production booking site, replace the placeholder details and connect an actual reservation service.
 
